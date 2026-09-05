@@ -15,7 +15,7 @@ from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
 BASE = "https://data.commoncrawl.org/"
 
 N_WORKER = 4                     # quanti file WET scaricare/analizzare in parallelo
-N_PAROLE_SUCCESSIVE = 30         # quante parole catturare subito dopo la frase trovata
+N_PAROLE_SUCCESSIVE = 50         # quante parole catturare subito dopo la frase trovata
 COMMIT_OGNI_N_FILE = 5           # ogni quanti file processati faccio commit+push intermedio
 
 ORE_LAVORO = 6
